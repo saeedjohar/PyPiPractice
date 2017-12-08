@@ -1,4 +1,4 @@
-from setuptools import setup
+from distutils.core import setup
 setup(
   name = 'animalstest',
   packages = ['animalstest'], # this must be the same as the name above
@@ -7,7 +7,7 @@ setup(
   author = 'Saeed Johar',
   author_email = 'saeed_johar@yahoo.com',
   url = 'https://github.com/saeedjohar/animalstest', # use the URL to the github repo
-#  download_url = 'https://github.com/saeedjohar/PyPiPractice', # I'll explain this in a second
+  download_url = 'https://github.com/saeedjohar/animalstest/dist/animalstest-0.1.tar.gz', # I'll explain this in a second
 #  keywords = ['testing', 'pypi', 'example'], # arbitrary keywords
 
 )
